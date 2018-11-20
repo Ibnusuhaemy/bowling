@@ -435,4 +435,101 @@ h1, h2, h3, h4, h5, h6{
     width: device-width;
 }
 
+@media screen and (max-width: 1199px){
+    /* --- Hero --- */
+    .hero-bow{
+        padding-bottom: 90px;
+    }
+    .hero-bow .hero-app{
+        max-height: 260px;
+        width: auto;
+    }
+}
+@media screen and (max-width: 991px){
+    .menu-bow .navbar-bow{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar-bow .navbar-nav .nav-item {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-bow .navbar-nav .nav-link{
+        padding: 14px 0;
+    }
+    .navbar-bow .navbar-nav .nav-button .nav-link{
+        margin: 10px 0;
+    }
+    .navbar-bow .navbar-nav .nav-button .nav-link .btn{
+        width: 100%;
+        max-width: 120px;
+    }
+    
+    .header-bow{
+        background-size: cover;
+        background-position: center center;
+    }
+    .hero-bow{
+        text-align: center;
+        background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 78%, #ffffff);
+        background-image: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 78%, #ffffff);
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 78%, #ffffff);
+    }
+    .hero-preview img{
+        max-height: 240px;
+        width: auto;
+        margin-bottom: 30px;
+    }
+    /*
+    .hero-preview .hero-app{
+        max-height: 200px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+    */
+    
+    .feature-bow .feature-content{
+        padding: 10px 50px;
+    }
+    .feature-content .feature-media{
+        padding: 40px 0;
+        margin-left: 22px;
+        margin-right: 22px;
+        border-bottom: 1px solid #dedede;
+    }
+    .feature-content .feature-media-bottom:last-child .feature-media{
+        border-bottom: none;
+    }
+    .feature-content .feature-media-top{
+        border-bottom: none;
+    }
+    .feature-content .feature-media-left{
+        border-right: none;
+    }
+    .feature-media .feature-desc{
+        margin-bottom: 0;
+    }
+    
+    .product-bow{
+        margin-bottom: 40px;
+    }
+    .product-header .product-nav{
+        margin-bottom: 50px;
+    }
+    .product-feature .product-media{
+        margin-bottom: 35px;
+    }
+    .product-device img{
+        margin-bottom: 30px;
+    }
+    .product-bow .product-device{
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    
+    .footer-bow .footer-app{
+        margin-bottom: 30px;
+    }
+}
 
