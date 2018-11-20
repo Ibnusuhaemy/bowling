@@ -117,6 +117,9 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 0;
 }
 
+.btn{
+    transition: 0.25s ease-in-out;
+}
 .btn-general{
     border-radius: 4px;
     padding: 14px 34px;
@@ -130,14 +133,26 @@ h1, h2, h3, h4, h5, h6{
     background-color: transparent;
     border-color: #ffc340;
 }
+.btn-transparent-orange:hover,
+.btn-transparent-orange:focus{
+    background-color: rgba(255, 255, 255, 0.125);
+}
 .btn-transparent-blue{
     color: #5258cb;
     background-color: transparent;
     border-color: #5258cb;
 }
+.btn-transparent-blue:hover,
+.btn-transparent-blue:focus{
+    background-color: rgba(255, 255, 255, 0.25);
+}
 .btn-orange{
     color: #5258cb;
     background-color: #ffc340;
+}
+.btn-orange:hover,
+.btn-orange:focus{
+    background-color: #ffd34f;
 }
 
 
@@ -268,6 +283,14 @@ h1, h2, h3, h4, h5, h6{
 .product-nav .nav-item{
     display: inline-block;
 }
+.product-nav .nav-item:first-child .nav-link{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.product-nav .nav-item:last-child .nav-link{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
 .product-nav .nav-item.show .nav-link, 
 .product-nav .nav-link.active{
     border-color: #4c53d1;
@@ -277,14 +300,18 @@ h1, h2, h3, h4, h5, h6{
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover{
     border-color: #4c53d1;
-    background-color: rgba(222, 222, 222, 0.5);
+    background-color: rgba(0, 0, 0, 0.125);
 }
-.product-nav .nav-item.show .nav-link:focus, 
 .product-nav .nav-item.show .nav-link:hover, 
 .product-nav .nav-link.active:hover,
 .product-nav .nav-link.active:focus{
     background-color: #4c53d1;
     opacity: 0.75;
+}
+.product-nav .nav-item.show .nav-link:focus,
+.product-nav .nav-link.active:focus{
+    background-color: #4c53d1;
+    opacity: 1;
 }
 .product-feature .product-media{
     margin-bottom: 70px;
@@ -328,12 +355,18 @@ h1, h2, h3, h4, h5, h6{
     display: block;
 }
 .product-device .btn-product{
+    background-image: -webkit-linear-gradient(left, #4e54c8, #8f94fb);
+    background-image: -o-linear-gradient(left, #4e54c8, #8f94fb);
     background-image: linear-gradient(to right, #4e54c8, #8f94fb);
     font-family: "SF UI Text Medium", Fallback, sans-serif;
     font-size: 15px;
     letter-spacing: -0.3px;
     color: #fff;
     padding: 14px 32px;
+    transition: background-color 10s ease-in-out;
+}
+.product-device .btn-product:hover{
+    background-image: linear-gradient(to right, #4e54c8, #4e54c8);
 }
 
 
