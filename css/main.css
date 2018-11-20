@@ -1,0 +1,405 @@
+/* --- General Styles --- */
+
+/* - Font Smoothing - */
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    font-smoothing: antialiased !important;
+}
+
+/* - List - */
+ul{
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0px;
+    -ms-padding-start: 0px;
+    -o-padding-start: 0px;
+    list-style: none;
+    text-align: left;
+}
+
+/* - Font Family - */
+/* SF UI Text Semi Bold */
+@font-face {
+  font-family: 'SF UI Text Semibold';
+  src: url('../fonts/sfuitextsemibold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sfuitextsemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sfuitextsemibold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sfuitextsemibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sfuitextsemibold.svg#sfuitextsemibold') format('svg'); /* Legacy iOS */
+}
+
+/* SF UI Text Regular */
+@font-face {
+  font-family: 'SF UI Text Regular';
+  src: url('../fonts/sfuitextregular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sfuitextregular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sfuitextregular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sfuitextregular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sfuitextregular.svg#sfuitextregular') format('svg'); /* Legacy iOS */
+}
+
+/* SF UI Text Bold */
+@font-face {
+  font-family: 'SF UI Text Bold';
+  src: url('../fonts/sfuitextsemibold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sfuitextsemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sfuitextsemibold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sfuitextsemibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sfuitextsemibold.svg#sfuitextsemibold') format('svg'); /* Legacy iOS */
+}
+
+/* SF UI Text Medium */
+@font-face {
+  font-family: 'SF UI Text Medium';
+  src: url('../fonts/sfuitextmedium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sfuitextmedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sfuitextmedium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sfuitextmedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sfuitextmedium.svg#sfuitextmedium') format('svg'); /* Legacy iOS */
+}
+
+/* - */
+p{
+    line-height: normal;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: normal;
+    margin: 0;
+}
+
+.header-bow{
+    background-image: url(../images/backgrounds/bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top center;
+}
+.general-title{
+    font-family: "SF UI Text Semibold", Fallback, sans-serif;
+    font-size: 35px;
+    letter-spacing: -0.6px;
+    color: #3a3a3a;
+    margin-bottom: 18px;
+}
+
+/* --- Menu --- */
+.menu-bow{
+    background-color: rgba(27, 27, 83, 0.45);
+}
+.menu-bow .navbar-bow{
+    padding: 0;
+}
+.navbar-bow .navbar-brand{
+    font-family: "SF UI Text Regular", Fallback, sans-serif;
+    font-size: 29px;
+    letter-spacing: -1.2px;
+    color: #fff;
+}
+.navbar-bow .navbar-nav .nav-item{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.navbar-bow .navbar-nav .nav-link{
+    font-family: "SF UI Text Semibold", Fallback, sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #fff;
+    padding: 14px 23px;
+}
+.navbar-bow .navbar-nav .nav-button .nav-link{
+    padding: 0;
+    margin-right: 22px;
+    margin-left: 22px;
+}
+.navbar-bow .navbar-nav .nav-button:last-child .nav-link{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.btn-general{
+    border-radius: 4px;
+    padding: 14px 34px;
+    font-family: "SF UI Text Medium", Fallback, sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    border: 1px solid transparent;
+}
+.btn-transparent-orange{
+    color: #ffc340;
+    background-color: transparent;
+    border-color: #ffc340;
+}
+.btn-transparent-blue{
+    color: #5258cb;
+    background-color: transparent;
+    border-color: #5258cb;
+}
+.btn-orange{
+    color: #5258cb;
+    background-color: #ffc340;
+}
+
+
+/* --- Hero Content --- */
+.hero-bow{
+    padding-top: 70px;
+    padding-bottom: 110px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.68) 78%, #ffffff);
+}
+.hero-bow .hero-preview{
+    position: relative;
+}
+.hero-bow .hero-app{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+}
+.hero-bow .hero-title{
+    font-family: "SF UI Text Bold", Fallback, sans-serif;
+    font-size: 43px;
+    letter-spacing: -0.6px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.hero-bow .hero-article{
+    font-family: "SF UI Text Medium", Fallback, sans-serif;
+    font-size: 16px;
+    line-height: 1.44;
+    letter-spacing: -0.2px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.hero-bow .btn-hero{
+    margin-right: 16px;
+}
+.hero-bow .btn-hero:last-child{
+    margin-right: 0;
+}
+
+
+/* --- Feature Content --- */
+.feature-bow .feature-content{
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+    border: none;
+    padding: 40px 75px;
+    margin-bottom: 55px;
+}
+.feature-content .feature-media{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.feature-content .feature-media-left{
+    padding-right: 55px;
+    border-right: 1px solid #dedede;
+}
+.feature-content .feature-media-right{
+    padding-left: 40px;
+}
+.feature-content .feature-media-top{
+    border-bottom: 1px solid #dedede;
+}
+.feature-content .feature-media-bottom .feature-media{
+    padding-top: 50px;
+}
+.feature-media .media-body{
+    padding-left: 11px;
+}
+.feature-media .feature-title{
+    font-family: "SF UI Text Semibold", Fallback, sans-serif;
+    font-size: 23px;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    color: #3a3a3a;
+    margin-bottom: 13px;
+}
+.feature-media .feature-desc{
+    font-family: "SF UI Text Regular", Fallback, sans-serif;
+    font-size: 15px;
+    line-height: 1.53;
+    letter-spacing: -0.3px;
+    color: #3a3a3a;
+    margin-bottom: 45px;
+}
+
+
+/* --- Map --- */
+.map-bow{
+    text-align: center;
+}
+.map-bow .map-caption{
+    font-family: "SF UI Text Regular", Fallback, sans-serif;
+    font-size: 19px;
+    line-height: 1.37;
+    letter-spacing: -0.3px;
+    color: #747474;
+    width: 100%;
+    max-width: 427px;
+    margin: 0 auto 30px;
+}
+.map-bow .map-image{
+    margin-bottom: 40px;
+}
+
+
+/* --- Product --- */
+.product-bow .product-header{
+    text-align: center;
+}
+.product-header .product-nav{
+    border-bottom: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.product-nav .nav-link{
+    font-family: "SF UI Text Medium", Fallback, sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #4c53d1;
+    padding: 12px 32px;
+    border: 1px solid #4c53d1;
+    border-radius: 0;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+}
+.product-nav .nav-item{
+    display: inline-block;
+}
+.product-nav .nav-item.show .nav-link, 
+.product-nav .nav-link.active{
+    border-color: #4c53d1;
+    background-color: #4c53d1;
+    color: #fff;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover{
+    border-color: #4c53d1;
+    background-color: rgba(222, 222, 222, 0.5);
+}
+.product-nav .nav-item.show .nav-link:focus, 
+.product-nav .nav-item.show .nav-link:hover, 
+.product-nav .nav-link.active:hover,
+.product-nav .nav-link.active:focus{
+    background-color: #4c53d1;
+    opacity: 0.75;
+}
+.product-feature .product-media{
+    margin-bottom: 70px;
+}
+.product-feature .product-image{
+    width: 48px;
+    height: auto;
+    text-align: center;
+    margin-right: 1rem !important;
+}
+.product-image img{
+    display: inline-block;
+    margin-right: 0 !important;
+}
+.product-bow  .product-feature-left{
+    padding-right: 0;
+}
+.product-bow  .product-feature-right{
+    padding-left: 0;
+}
+.product-feature .product-feature-title{
+    font-family: "SF UI Text Semibold", Fallback, sans-serif;
+    font-size: 23px;
+    letter-spacing: -0.4px;
+    color: #3a3a3a;
+    margin-bottom: 14px;
+}
+.product-feature .product-feature-desc{
+    font-family: "SF UI Text Regular", Fallback, sans-serif;
+    font-size: 15px;
+    line-height: 1.53;
+    letter-spacing: -0.3px;
+    color: #3a3a3a;
+}
+.product-bow .product-device{
+    text-align: center;
+    padding-top: 50px;
+}
+.product-device img{
+    margin: auto auto 65px;
+    display: block;
+}
+.product-device .btn-product{
+    background-image: linear-gradient(to right, #4e54c8, #8f94fb);
+    font-family: "SF UI Text Medium", Fallback, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    color: #fff;
+    padding: 14px 32px;
+}
+
+
+/* --- CTA --- */
+.cta-bow{
+    background-image: -webkit-linear-gradient(to bottom, #4e54c8, #8f94fb);
+    background-image: -o-linear-gradient(to bottom, #4e54c8, #8f94fb);
+    background-image: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    padding: 66px 0;
+    text-align: center;
+}
+.cta-bow .cta-title{
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto 30px;
+    color: #fff;
+    font-family: "SF UI Text Bold", Fallback, sans-serif;
+    font-size: 37px;
+    letter-spacing: -0.5px;
+}
+
+
+/* --- Footer --- */
+.footer-bow{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.footer-bow .footer-title{
+    font-family: "SF UI Text Semibold", Fallback, sans-serif;
+    font-size: 23px;
+    letter-spacing: -0.4px;
+    color: #3a3a3a;
+    margin-bottom: 14px;
+}
+.footer-bow p,
+.footer-bow a{
+    font-family: "SF UI Text Regular", Fallback, sans-serif;
+    font-size: 15px;
+    line-height: 1.53;
+    letter-spacing: -0.3px;
+}
+.footer-bow a{
+    color: #363cbd;
+}
+.footer-app .footer-app-icon{
+    background-image: -webkit-linear-gradient(bottom, #747ae6, #8c91f9);
+    background-image: -o-linear-gradient(bottom, #747ae6, #8c91f9);
+    background-image: linear-gradient(to top, #747ae6, #8c91f9);
+    border-radius: 20px;
+    width: 74px;
+    height: 74px;
+    margin-right: 20px;
+}
+.footer-app .footer-app-desc{
+    margin-bottom: 30px;
+}
+.footer-menu li{
+    margin-bottom: 10px;
+}
+.footer-contact{
+    margin-bottom: 25px;
+}
+
+/* --- Media Queries --- */
+@-ms-viewport{
+    width: device-width;
+}
+
+

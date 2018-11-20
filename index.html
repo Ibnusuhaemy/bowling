@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <title>Bowling Tracker App</title>
+        
+        <!-- Meta Tags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Icon -->
+        <link rel="shortcut icon" href="images/icons/favicon.ico">
+        <link rel="icon" sizes="130x128" href="images/icons/favicon.ico">
+        <link rel="apple-touch-icon" sizes="130x128" href="images/icons/favicon.ico">
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap.4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
+    </head>
+    <body>
+        
+        <div class="header-bow">
+            <header class="menu-bow">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <nav class="navbar navbar-expand-lg navbar-bow">
+                                <a class="navbar-brand" href="#">Bowling Tracker</a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">FAQ</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contact</a>
+                                        </li>
+                                        <li class="nav-item nav-button">
+                                            <a class="nav-link" href="#"><button class="btn btn-menu btn-general btn-transparent-orange">Login</button></a>
+                                        </li>
+                                        <li class="nav-item nav-button">
+                                            <a class="nav-link" href="#"><button class="btn btn-menu btn-general btn-orange">Sign up</button></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="hero-bow">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-7">
+                            <div class="hero-preview">
+                                <img src="images/thumbnails/macbook.png" width="687" height="405" alt="Bowling Web" class="img-fluid">
+                                <img src="images/thumbnails/i-phone.png" width="203" height="396" alt="Bowling App" class="hero-app">
+                            </div>
+                        </div>
+                        <div class="col-xl-5">
+                            <h1 class="hero-title">Simple, Elegant and Intuitive Bowling Tracker App</h1>
+                            <p class="hero-article">
+                                Easily record any game result and search nearby bowling alleys and to view 
+                                comprehensive information about them. Extensive statistics show your own success 
+                                accompanied by a ball management and a distinction between training.
+                            </p>
+                            <a href="#" class="btn btn-general btn-hero btn-transparent-blue">Access Web App</a>
+                            <a href="#" class="btn btn-general btn-hero btn-orange">Download App</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <section class="feature-bow">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card feature-content">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-6 feature-media-top">
+                                        <div class="media feature-media feature-media-left">
+                                            <img class="mr-3" src="images/icons/score.png">
+                                            <div class="media-body">
+                                                <h3 class="feature-title">Results</h3>
+                                                <p class="feature-desc">
+                                                    Without much effort results can be entered without being 
+                                                    distracted from the game. For this only the final score is 
+                                                    entered without having to enter every single frame.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 feature-media-top">
+                                        <div class="media feature-media feature-media-right">
+                                            <img class="mr-3" src="images/icons/trophy.png">
+                                            <div class="media-body">
+                                                <h3 class="feature-title">Traces</h3>
+                                                <p class="feature-desc">
+                                                    Every day, the number of information about the bowling halls 
+                                                    in Germany, America and the Netherlands is washed. Other 
+                                                    countries are already in the planning stage. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 feature-media-bottom">
+                                        <div class="media feature-media feature-media-left">
+                                            <img class="mr-3" src="images/icons/bowling.png">
+                                            <div class="media-body">
+                                                <h3 class="feature-title">Balls</h3>
+                                                <p class="feature-desc">
+                                                    How many games have been played with a ball? With just one 
+                                                    click you can see all the important information about your 
+                                                    ball: number of games, used on which course and the average 
+                                                    and comments. 
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 feature-media-bottom">
+                                        <div class="media feature-media feature-media-right">
+                                            <img class="mr-3" src="images/icons/placeholder.png">
+                                            <div class="media-body">
+                                                <h3 class="feature-title">Location</h3>
+                                                <p class="feature-desc">
+                                                    How many games have been played with a ball? With just one 
+                                                    click you can see all the important information about your 
+                                                    ball: number of games, used on which course and the average 
+                                                    and comments.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="map-bow">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="general-title">Enjoy Bowling Everywhere, Everytime</h3>
+                        <p class="map-caption">Enjoy detailed information about all the bowling centers in Europe and USA.</p>
+                        <img class="map-image img-fluid" src="images/backgrounds/dotted-map.png" width="863" height="486" alt="Bowling App Location">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="product-bow">
+            <div class="container">
+                <div class="row">
+                    <div class="col product-header">
+                        <h3 class="general-title">Available on Web &amp; Mobile</h3>
+                        <ul class="nav nav-tabs product-nav justify-content-center" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="web" aria-selected="true">Web App</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab" aria-controls="mobile" aria-selected="false">Mobile App</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row">
+                            <div class="col-xl-3 product-feature product-feature-left">
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/wifi.png" width="42" height="32" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Online</h3>
+                                        <p class="product-feature-desc">
+                                            To use the bowling tracker on the phone as a web app, an active internet 
+                                            connection is required
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/growth.png" width="29" height="29" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Statistic</h3>
+                                        <p class="product-feature-desc">
+                                            To use the bowling tracker on the phone as a web app, an active internet 
+                                            connection is required
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/bowling-black.png" width="44" height="44" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Balls</h3>
+                                        <p class="product-feature-desc">
+                                            All balls and a short info can be viewed with just one click. Whether user or 
+                                            new, here all balls appear in new splendor
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 product-device">
+                                <img src="images/thumbnails/macbook.png" class="img-fluid" width="687" height="405" alt="Bowling Device">
+                                <a href="#" class="btn btn-product">Access Web App</a>
+                            </div>
+                            <div class="col-xl-3 product-feature product-feature-right">
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/strike.png" width="48" height="50" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Traces</h3>
+                                        <p class="product-feature-desc">
+                                            After the course has been selected, the most important information about it 
+                                            will be displayed directly.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/search.png" width="34" height="35" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Search</h3>
+                                        <p class="product-feature-desc">
+                                            Whether you are looking for a train, restaurant or games, you will always 
+                                            find the right one nearby. Everything in one app, all about bowling!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/smile.png" width="47" height="47" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Free</h3>
+                                        <p class="product-feature-desc">
+                                            The mobile web version is free, ad-free and will be extended stats. Only the 
+                                            mobile app (end of 2018) is a one-time free
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="row">
+                            <div class="col-xl-3 product-feature">
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/wifi.png" width="42" height="32" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Online</h3>
+                                        <p class="product-feature-desc">
+                                            To use the bowling tracker on the phone as a web app, an active internet 
+                                            connection is required
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/growth.png" width="29" height="29" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Statistic</h3>
+                                        <p class="product-feature-desc">
+                                            To use the bowling tracker on the phone as a web app, an active internet 
+                                            connection is required
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/bowling-black.png" width="44" height="44" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Balls</h3>
+                                        <p class="product-feature-desc">
+                                            All balls and a short info can be viewed with just one click. Whether user or 
+                                            new, here all balls appear in new splendor
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 product-device">
+                                <img src="images/thumbnails/i-phone.png" class="img-fluid" width="203" height="396" alt="Bowling Device">
+                                <a href="#" class="btn btn-product">Access Mobile App</a>
+                            </div>
+                            <div class="col-xl-3 product-feature">
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/strike.png" width="48" height="50" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Traces</h3>
+                                        <p class="product-feature-desc">
+                                            After the course has been selected, the most important information about it 
+                                            will be displayed directly.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/search.png" width="34" height="35" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Search</h3>
+                                        <p class="product-feature-desc">
+                                            Whether you are looking for a train, restaurant or games, you will always 
+                                            find the right one nearby. Everything in one app, all about bowling!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="media product-media">
+                                    <div class="product-image">
+                                        <img class="mr-3" src="images/icons/smile.png" width="47" height="47" alt="Bowling Feature">
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="product-feature-title">Free</h3>
+                                        <p class="product-feature-desc">
+                                            The mobile web version is free, ad-free and will be extended stats. Only the 
+                                            mobile app (end of 2018) is a one-time free
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta-bow">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="cta-title">Track your scores automatically and bowl against everyone</h2>
+                        <a href="#" class="btn">
+                            <img src="images/thumbnails/appstore.png">
+                        </a>
+                        <a href="#" class="btn">
+                            <img src="images/thumbnails/playstore.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer-bow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5">
+                        <div class="media footer-app">
+                            <div class="footer-app-icon">
+                                <!-- <img src="" width="74" height="74" alt="Icon App"> -->
+                            </div>
+                            <div class="media-body">
+                                <h3 class="footer-title">Bowling Tracker</h3>
+                                <p class="footer-app-desc">
+                                    Easily record any game result and search nearby bowling alleys and to view 
+                                    comprehensive information about them. Extensive statistics show your own success 
+                                    accompanied by a ball management.
+                                </p>
+                                <a href="#">About Developer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <h5 class="footer-title">Get Started</h5>
+                        <ul class="footer-menu">
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Download</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2">
+                        <h5 class="footer-title">Resources</h5>
+                        <ul class="footer-menu">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Data Protection</a></li>
+                            <li><a href="#">Imprint</a></li>
+                            <li><a href="#">Collected Data</a></li>
+                            <li><a href="#">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3">
+                        <h5 class="footer-title">Get in Touch</h5>
+                        <div class="footer-contact">
+                            <p>Feedback</p>
+                            <a href="#">feedback@bowlingtracker.de</a>
+                        </div>
+                        <div class="footer-contact">
+                            <p>Information about trains</p>
+                            <a href="#">alley@bowlingtracker.de</a>
+                        </div>
+                        <div class="footer-contact">
+                            <p>Information about restaurant</p>
+                            <a href="#">restaurant@bowlingtracker.de</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Javascript -->
+        <script type="text/javascript" src="vendor/jquery.3.2.1/jquery.3.2.1.min.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap.4.1.3/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
