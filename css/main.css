@@ -527,9 +527,33 @@ h1, h2, h3, h4, h5, h6{
         padding-top: 0;
         margin-bottom: 40px;
     }
+    .product-bow .product-feature-left{
+        padding-right: 15px;
+    }
+    .product-bow .product-feature-right{
+        padding-left: 15px;
+    }
     
     .footer-bow .footer-app{
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .feature-bow .feature-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .footer-bow .footer-app{
+        display: block;
+        margin-bottom: 40px;
+    }
+    .footer-app .footer-app-icon{
+        margin-bottom: 15px;
+    }
+    .footer-bow .footer-menu{
+        margin-bottom: 40px;
     }
 }
 
