@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6{
 /* --- Hero Content --- */
 .hero-bow{
     padding-top: 70px;
-    padding-bottom: 110px;
+    padding-bottom: 100px;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.68) 78%, #ffffff);
 }
 .hero-bow .hero-preview{
@@ -554,6 +554,38 @@ h1, h2, h3, h4, h5, h6{
     }
     .footer-bow .footer-menu{
         margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero-bow .btn-hero{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 200px;
+    }
+    .hero-bow .btn-hero:last-child{
+        margin-right: auto;
+    }
+    
+    .feature-content .feature-media{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
+    }
+    .feature-content .feature-media img{
+        margin-right: auto !important;
+        margin-bottom: 10px;
+    }
+    .feature-media .media-body{
+        padding-left: 0;
+    }
+    
+    .cta-bow .cta-title{
+        font-size: 30px;
     }
 }
 
